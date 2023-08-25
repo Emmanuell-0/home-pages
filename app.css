@@ -88,35 +88,6 @@ box-sizing: border-box;
 }
 
 
-/* GPT HEl[ */
-
-/* 
-.typing-text {
-  position: relative;
-}
-
-.typing-content {
-  font-size: 78px;
-  color: #616161;
-  overflow: hidden;
-  white-space: nowrap;
-}
-
-.typing-content h1 {
-  display: inline-block;
-  animation: typing 5s steps(40) infinite;
-}
-
-@keyframes typing {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 100%;
-  }
-} */
-
-/* end of gpt */
 
 main{
   flex: 1;
@@ -134,31 +105,17 @@ nav a{
   text-decoration: none;
 }
 
-.btn-container{
-  /* height: 56px; */
-  /* position: absolute; */
-  /* left: 480.2px;
-  top: 168px; */
-  /* transform: rotate(1.375deg); */
- 
-/* margin: 2px; */
 
-
-
-}
 .btn{
-/* width: 11px; */
-/* height: 23px; */
+
 padding: 0.625em 0.625em;
 
 border: 2px solid #0004ff32;
 
-/* 
-border: #fff 1px solid; */
+
 text-decoration: none;
 text-align: center;
-/* padding-top: 10px; */
-/* font-weight: 600; */
+
 line-height: 100%;
 color: #524e4e;
 font-size: 18px;
