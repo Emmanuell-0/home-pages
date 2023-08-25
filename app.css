@@ -1,0 +1,456 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+html {
+  zoom: 1; /* Reset zoom to normal */
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #EDDFE4;
+  font-family: 'Lato', sans-serif;
+  color: #524e4e;
+  /* margin-bottom: 100px; */
+
+}
+
+.logo img{
+  width: 45%;
+  height: auto;
+}
+
+ .mob-wrapper{
+display: none;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2.5em;
+  margin-bottom: 4.375em;
+  width: 100%;
+  
+  width: 64em;
+  margin: 2em auto;
+}
+
+
+
+.nav-box{
+  /* display: inline-flex; */
+/* align-items: center; */
+
+display: flex;
+gap: 1.875em;
+
+}
+
+.nav-link{
+  color: #616161;
+/* font-family: Source Sans Pro; */
+font-size: 1em;
+font-style: normal;
+font-weight: 400;
+line-height: 100%;
+box-sizing: border-box;
+
+}
+
+
+.nav-link:hover{
+  /* background-color: #ffffff64; */
+  border: 2px solid transparent;
+  transition: 800ms;
+  padding: 1px 3px 4px 5px;
+  /* border: 2px solid #0004ff32; */
+  border: 2px solid transparent;
+}
+
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 64em;
+  height: auto;
+  /* background-color: #616161; */
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100%; /* Set the container to take at least the full viewport height */
+
+
+}
+.main-text h1{
+  font-size: 4.875em;
+  color: #616161;
+}
+
+
+/* GPT HEl[ */
+
+/* 
+.typing-text {
+  position: relative;
+}
+
+.typing-content {
+  font-size: 78px;
+  color: #616161;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.typing-content h1 {
+  display: inline-block;
+  animation: typing 5s steps(40) infinite;
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+} */
+
+/* end of gpt */
+
+main{
+  flex: 1;
+}
+.main img{
+  width: 100%;
+  margin-top: 15.625em;
+  }
+  .main{
+    display: flex;
+  columns: 2;
+  }
+
+nav a{
+  text-decoration: none;
+}
+
+.btn-container{
+  /* height: 56px; */
+  /* position: absolute; */
+  /* left: 480.2px;
+  top: 168px; */
+  /* transform: rotate(1.375deg); */
+ 
+/* margin: 2px; */
+
+
+
+}
+.btn{
+/* width: 11px; */
+/* height: 23px; */
+padding: 0.625em 0.625em;
+
+border: 2px solid #0004ff32;
+
+/* 
+border: #fff 1px solid; */
+text-decoration: none;
+text-align: center;
+/* padding-top: 10px; */
+/* font-weight: 600; */
+line-height: 100%;
+color: #524e4e;
+font-size: 18px;
+
+}
+
+
+.btn {
+  padding: 0.75em 1em; /* Adjust padding to provide enough space for content */
+  border: 2px solid #0004ff32;
+  text-decoration: none;
+  text-align: center;
+  line-height: 1; /* Set line-height to 1 for better vertical alignment */
+  color: #524e4e;
+  font-size: 18px;
+  display: inline-block; /* Ensure the button respects the content's width */
+}
+
+
+.middle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.875em;
+
+  margin-top: 3.125em;
+
+}
+
+.middle h2 {
+  font-size: 3em;
+}
+.middle p{
+  font-size: 22px;
+  color: rgba(43, 53, 62, 0.70);
+text-align: center;
+/* font-family: Roboto; */
+
+
+/* font-style:; */
+font-weight: 500;
+line-height: 2.46875em; /* 185.938% */
+letter-spacing: -1.18px;
+}
+
+
+
+.btn:hover{
+  background-color: #62575764;
+  transition: 800ms;
+ 
+}
+
+.btn-main{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 1.875em;
+
+}
+
+.b-main:hover{
+  border-radius: 1px;
+  background: #ffd2e6;
+}
+
+
+.app-img{
+  width: 100%;
+}
+
+.carousel-container {
+  overflow: hidden;
+}
+
+.carousel {
+  display: flex;
+  animation: scroll 10s linear infinite;
+}
+
+.carousel-item {
+  flex: 0 0 100%;
+  overflow: hidden; /* Ensure images don't overflow */
+}
+
+.carousel-item img {
+  width: 100%; /* Ensure images fill the container */
+  height: auto;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
+}
+
+footer{
+  
+
+  /* height: 100%; */
+  background-color: #92929220;
+  width: 64em; 
+  /* Make sure the footer spans the entire width */
+  padding: 1em 0; /* Add some padding for spacing */
+  position: fixed;
+
+  /* left: -1em; */
+  bottom: 0; /* Position the footer at the bottom */
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center /* Space out the content horizontally */
+  /* margin: 0 auto; */
+}
+
+footer img{
+  width: 30%;
+
+
+}
+
+.footer-text{
+  display: flex;
+gap: 1.875em;
+align-items: center;
+justify-content: center;
+
+}
+
+.footer-text a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 0.7em;
+
+}
+
+.f-text:hover{
+  border: 2px solid transparent;
+  transition: 800ms;
+  padding: 1px 3px 4px 5px;
+  /* border: 2px solid #0004ff32; */
+  border: 2px solid transparent;
+}
+
+.footer-date{
+  font-style: italic;
+  margin-left: 0.9375em;
+}
+
+
+
+
+
+
+/* Styles for screens up to 600px */
+@media (max-width: 600px) {
+  /* ... */
+ header{
+
+  
+ }
+  nav{
+    justify-content: space-between;
+    /* background-color: #616161; */
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    width: 44em;
+    margin: 20% auto;
+    
+   
+  }
+.nav-box{
+  display: none;
+}
+.mob-wrapper{
+  display: block;
+/* width: 10%;
+margin: 0 auto; */
+position: relative;
+
+}
+
+.burgermenu{
+  /* margin-left: -200px; */
+}
+.mob-nav{
+  display:flex;
+  flex-direction: column;
+  background-color: #42414136;
+  padding: 2em;
+  z-index: 1;
+ text-align: center;
+ gap: 1em;
+position: absolute;
+left: -2.8125em;
+bottom: 10;
+}
+
+.show{
+  display: none;
+  
+}
+.nav-ham{
+
+  color: #fff;
+}
+
+.nav-ham:hover{
+
+  border: 2px #fff  solid;
+  padding: 0.2em 2em;
+  transition: 500ms;
+ 
+}
+
+  .logo img {
+    width: 80%;       
+              /* Adjust the logo size as needed */
+   margin-bottom: 1em;     /* Add spacing below the logo */
+  }
+
+ .btn{
+  padding: 0.6em 1em;
+  letter-spacing: 1.5;
+text-align: center;
+ }
+
+ .container{
+  width: 54em;
+  margin: 0 auto;
+ }
+
+ footer{
+  
+
+  gap: 1.875em;
+  
+
+}
+
+ 
+ footer img{
+  
+    width: 35%;
+    margin-bottom: 1em;
+  
+    
+ }
+ 
+
+ .middle p{
+  font-size: 22px;
+  color: rgba(43, 53, 62, 0.70);
+text-align: center;
+/* font-family: Roboto; */
+width: 25em;
+font-family: 'Lato', sans-serif;
+/* font-style:; */
+font-weight: 600 ;
+line-height: 2.46875em; /* 185.938% */
+letter-spacing: 0px;
+}
+
+
+
+
+
+ .footer-text{
+  margin-left: 9.375em;
+ }
+}
+
+/* Styles for screens between 601px and 768px */
+@media (min-width: 601px) and (max-width: 768px) {
+  /* ... */
+}
+
+/* Styles for screens between 769px and 1200px (typical tablet size range) */
+@media (min-width: 769px) and (max-width: 1200px) {
+  /* ... */
+}
+
+/* Styles for screens larger than 1200px */
+@media (min-width: 1201px) {
+  /* ... */
+}
+
+
+
